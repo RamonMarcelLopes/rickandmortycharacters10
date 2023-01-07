@@ -26,6 +26,15 @@ function App() {
           src="https://www.fatosdesconhecidos.com.br/wp-content/uploads/2020/05/rick-e-morty-4.jpg"
           alt=""
         />
+        <iframe
+          className="ytframe"
+          width="500"
+          height="280"
+          src="https://www.youtube.com/embed/REp44yoG2xI"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
         {dados.map((pk: any) => {
           return (
             <>
